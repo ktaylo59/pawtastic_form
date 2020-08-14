@@ -37,9 +37,17 @@
   }
 }
 
-.pet-form {
+/* .pet-form {
   display: flex;
   flex-direction: column;
   margin-left: 50%;
   margin-top: 10%;
 }
+
+.big-form {
+  width: 60%;
+  height: 800px;
+  background-color: pink;
+  margin-top: -60%;
+  margin-left: 40%;
+} */

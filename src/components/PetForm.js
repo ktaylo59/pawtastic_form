@@ -9,6 +9,7 @@ class PetForm extends React.Component {
 
     render() {
         return (
+            
             <div className='page' >
                 <h1 id='title'> Yay, we love dogs! Give us <br/> the basics about your pup. </h1>
                 <form className='pet-form'>
@@ -29,6 +30,8 @@ class PetForm extends React.Component {
                     <button> Next </button>  
                   </div>
                 </form>
+                <div className="big-form">
+            </div>
             </div>
         );
     }

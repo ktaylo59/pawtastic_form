@@ -1,14 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import PetForm from './components/PetForm';
+import Nav from './components/Nav';
 
-function App() {
+class App extends React.Component {
+  render() {
   return (
     <div className="App">
      <PetForm/>
+     <Nav/>
     </div>
-  );
+   );
+ }
 }
-
 export default App;

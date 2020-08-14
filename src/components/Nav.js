@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
-class Navigation extends Component {
+class Nav extends Component {
     render() {
         return (
             <div className='side-bar' >
-                
+                <h1> PAWTASTIC </h1>
             </div>
             );
     }
 }
+export default Nav;
