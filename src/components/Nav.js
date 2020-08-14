@@ -17,6 +17,7 @@ class Nav extends Component {
               <label id='confirm' > Confirm </label>
               <label id='human' > Human Profile </label>
               <label id='pet' > Pet Basics </label>
+              <label id='petD' > Pet Details </label>
             </div>
             </div>
             );
