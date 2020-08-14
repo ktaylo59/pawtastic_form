@@ -24,6 +24,10 @@ class PetForm extends React.Component {
                   <input id='fixed-check' type="checkbox"/>
                   <label id='weight' htmlFor=""> Weight </label>
                   <input id='weight-check' type="checkbox"/>
+                  <div>
+                    <button> Back </button>
+                    <button> Next </button>  
+                  </div>
                 </form>
             </div>
         );
