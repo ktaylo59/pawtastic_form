@@ -14,6 +14,7 @@ class PetForm extends React.Component {
                 <form className='pet-form'  >
                   <label id='name' htmlFor=""> Name </label>
                   <input id='name-field' type="text" placeholder="Pet's name"  />
+                  <label id='breed' htmlFor=""> Breed </label>
                 </form>
             </div>
         );
