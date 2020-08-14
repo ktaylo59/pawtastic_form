@@ -11,12 +11,13 @@ class PetForm extends React.Component {
         return (
             <div className='page' >
                 <h1 id='title'> Yay, we love dogs! Give us <br/> the basics about your pup. </h1>
-                <form className='pet-form'  >
+                <form className='pet-form'>
                   <label id='name' htmlFor=""> Name </label>
-                  <input id='name-field' type="text" placeholder="Pet's name"  />
+                  <input id='name-field' type="text" placeholder="Pet's name" />
                   <label id='breed' htmlFor=""> Breed </label>
-                  <input id='breed-field' type="text" placeholder="Pet's breed"  />
+                  <input id='breed-field' type="text" placeholder="Pet's breed" />
                   <label id='birthday' htmlFor=""> Birthday </label>
+                  <input id='birthday-field' type="text" placeholder="MM/DD/YYYY" />
                 </form>
             </div>
         );
