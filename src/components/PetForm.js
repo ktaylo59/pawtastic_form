@@ -20,9 +20,10 @@ class PetForm extends React.Component {
                   <input id='birthday-field' type="text" placeholder="MM/DD/YYYY" />
                   <label id='gender' htmlFor=""> Gender </label>
                   <input id='gender-check' type="checkbox" />
-                  <label id= 'fixed' htmlFor=""> Sprayed and neutered </label>
+                  <label id= 'fixed' htmlFor=""> Spayed or Neutered </label>
                   <input id='fixed-check' type="checkbox"/>
-                  <label id='weight' htmlFor=""> weight </label>
+                  <label id='weight' htmlFor=""> Weight </label>
+                  <input id='weight-check' type="checkbox"/>
                 </form>
             </div>
         );
