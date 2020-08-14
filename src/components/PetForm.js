@@ -9,7 +9,10 @@ class PetForm extends React.Component {
 
     render() {
         return (
-            <div className='page' ></div>
+            <div className='page' >
+                <h1 id='title'> Yay, we love dogs! Give us <br/> the basics about your pup. </h1>
+
+            </div>
         );
     }
 }
