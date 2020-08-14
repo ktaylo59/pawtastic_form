@@ -21,6 +21,7 @@ class PetForm extends React.Component {
                   <label id='gender' htmlFor=""> Gender </label>
                   <input id='gender-check' type="checkbox" />
                   <label id= 'fixed' htmlFor=""> Sprayed and neutered </label>
+                  <input id='fixed-check' type="checkbox"/>
                 </form>
             </div>
         );
