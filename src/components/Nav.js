@@ -12,7 +12,8 @@ class Nav extends Component {
                    <button></button>
                    <button></button>
             </div>
-            </div>
+            </div className= 'labels'>
+             
             );
     }
 }
