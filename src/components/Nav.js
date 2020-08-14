@@ -15,6 +15,7 @@ class Nav extends Component {
             
             <div className= 'labels'>
               <label id='confirm' > Confirm </label>
+              <label id='human' > Human Profile </label>
             </div>
             </div>
             );
