@@ -15,6 +15,8 @@ class PetForm extends React.Component {
                 <form className='pet-form'>
                   <label id='name' htmlFor=""> Name </label>
                   <input id='name-field' type="text" placeholder="Pet's name" />
+                  <input id='photo' type="button" src='' />
+                  <label id='photo-label'> Upload a photo </label>
                   <label id='breed' htmlFor=""> Breed </label>
                   <input id='breed-field' type="text" placeholder="Pet's breed" />
                   <label id='birthday' htmlFor=""> Birthday </label>
@@ -25,14 +27,14 @@ class PetForm extends React.Component {
                   <input id='fixed-check' type="checkbox"/>
                   <label id='weight' htmlFor=""> Weight </label>
                   <input id='weight-check' type="checkbox"/>
-                  <div>
+                  
+                  <div id= 'next'>
                     <button> Back </button>
                     <button> Next </button>  
                   </div>
-                </form>
-                <div className="big-form">
+                  </form>              
             </div>
-            </div>
+            
         );
     }
 }

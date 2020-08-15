@@ -5,7 +5,7 @@ class Nav extends Component {
         return (
             <div className='side-bar' >
                 <img id='pal' src="./assets/goldie.jpg" alt=""/>
-                <h1> PAWTASTIC </h1>
+                <h1 id='pal2'> PAWTASTIC </h1>
             <div className= 'form'>
                    <button> </button>
                    <button></button>
