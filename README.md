@@ -1,3 +1,4 @@
+![image](https://user-images.githubusercontent.com/67480468/91362674-9a7f6a00-e7c0-11ea-8d20-b661bc97dc18.png)
 
 wireframe.pdf
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
